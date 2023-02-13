@@ -16,7 +16,8 @@ class Solution:
 		longestCommonPrefix = ""
 
 		for i in range(len(strs)):
-			print(i)
+
+			for 
 
 
 
