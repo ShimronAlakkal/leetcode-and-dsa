@@ -41,11 +41,10 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
 
-        for i in range(0, len(nums)):
-            if nums[i] == val:
-                del nums[i]
+        while val in nums:
+            nums.remove(val)
 
-        # return len(nums)
+        return len(nums)
 
 
 # test
